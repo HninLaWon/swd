@@ -1,0 +1,51 @@
+.heading {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline;
+}
+p {
+  font-family: "Playwrite PL", cursive;
+  line-height: 30px;
+}
+
+.mm {
+  font-family: "Padauk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 20px;
+}
+
+.icons {
+  font-size: 50px;
+  color: rgb(89, 10, 246);
+}
+.blue {
+  color: blue;
+}
+.pink {
+  color: rgb(200, 59, 59);
+}
+.box {
+  background-color: aqua;
+  height: 300px;
+  /* background-image: url(images/cat2.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed; */
+  background-image: url(images/cat2.jpg), url(images/cat4.jpg);
+  background-repeat: no-repeat;
+  background-size: 70px, auto 200px;
+  background-position: bottom left, bottom right;
+}
+
+body {
+  height: 5000px;
+}
+.bg-gradient {
+  background-color: blue;
+  /* background-image: linear-gradient(  200deg,   red, yellow, blue); */
+  /* background-image: radial-gradient( red, yellow, blue); */
+  background-image: conic-gradient(red, yellow, blue);
+  width: 4000px;
+  height: 1000px;
+}

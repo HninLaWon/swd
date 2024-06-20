@@ -1,0 +1,28 @@
+.heading{
+    border: 3px solid rgba(101, 9, 9, 0.675);
+    padding: 100px 30px;
+    margin: 50px;
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.39);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition-duration: 1s;
+    background: rgb(180, 67, 67);
+    opacity: 0.8;
+    visibility: visible;
+}
+
+body{
+    background-size: contain;
+    background-image: url(../../2-Css/css-font/images/cat4.jpg);
+}
+.heading:hover{
+   border-color: rebeccapurple;
+   color: red;
+   box-shadow: 5px 5px black;
+   transition-duration: 1s;
+}
+.heading:active{
+    background-color: gray;
+    color: white;
+    border-color: black;
+}

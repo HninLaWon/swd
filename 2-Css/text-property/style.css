@@ -1,0 +1,29 @@
+h1 {
+  color: brown;
+}
+.heading {
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  font-weight: bold;
+}
+.para {
+  text-decoration: overline;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  line-height: 50px;
+  word-spacing: 2px;
+  font-family: "Montserrat";
+  font-weight: 900px;
+}
+.del {
+  text-decoration: line-through;
+}
+.mm {
+  font-family: "Padauk";
+  font-weight: light;
+  letter-spacing: 10px;
+}
+.shorthand {
+  font: italic 200 20px/50px Montserrat;
+}

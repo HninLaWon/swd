@@ -1,0 +1,56 @@
+.heading {
+  width: 300px;
+  height: 200px;
+  /* border: 1px dotted rgb(38, 23, 1); */
+  border-width: 2px 5px 4px 10px;
+  border: solid;
+  border-color: aqua beige rebeccapurple black;
+  padding: 50px;
+  margin: 50px;
+}
+.list {
+  /* background-color: aqua;
+    border: 1px dotted rgb(38, 23, 1); */
+  border-width: 3px;
+  border: dotted;
+  border-top-color: blue;
+  border-left-color: black;
+  border-right-color: aqua;
+  border-bottom-color: brown;
+}
+.fruit {
+  background-color: antiquewhite;
+  border: 2px dotted rgb(171, 171, 24);
+}
+.para {
+  background-color: brown;
+  border: 3px solid rgb(17, 17, 1);
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    border: solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.float{
+    width: 500px;
+    margin-top: 50px;
+    border: 3px solid black;
+    clear: both;
+    
+    
+}
+.float img{
+    /* float: left; */
+    width: 200px;
+    display:  block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.float h2{
+    /* float: left; */
+    clear: both;
+}
