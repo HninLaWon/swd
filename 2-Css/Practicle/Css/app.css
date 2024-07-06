@@ -12,8 +12,10 @@
 
 @import url("components/_list.css");
 
-@import url("components/menu.css");
+@import url("components/_menu.css");
 
+@import url("./components/_card.css");
 
+@import url("./components/_form.css");
 
 
